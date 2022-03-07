@@ -1,0 +1,247 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+[calss*="col-"]{
+    width: 100px;
+}
+[calss*="col-"]{
+    float: left;
+   padding: 15px;
+
+}
+
+.row{
+    width: 100%;
+}
+
+
+.row::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* header start */
+
+header{
+    background-color: #a19c;
+    text-align: center;
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+
+nav ul li {
+    display: inline;
+    color: white;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav ul li:hover{
+    background-color: brown;
+}
+/* header ends */
+
+
+/* banner-section star */
+#banner-section{
+background-image: url(img/bg-1.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banar-contant{
+    padding: 50px 10px;
+    text-align: center;
+
+}
+
+.banar-contant h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.banar-contant p{
+    width: 300px;
+    margin: 15px auto;
+    background-color: rgb(0,128,0);
+    color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.btn{
+    width: 150px;
+    padding: 5px;
+    font-size: 1.3rem;
+    background-color: rgb(0,128,0);
+    color: wheat;
+    transition: .4s;
+
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+/* banner-section ends */
+
+/* about start */
+#about-us{
+    padding: 1%;
+
+}
+
+.about-contans{
+    text-align: center;
+
+}
+
+.about-contans h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.about-contans p{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding: 20px;
+   
+}
+/* about end */
+
+/* card start */
+
+.card{
+   padding: 10px;
+   box-shadow: 5px 10px #888888;
+   margin: 0 auto;
+
+}
+.dresp{
+    background-color:burlywood ;
+    color: beige;
+    text-align: center;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+.div-clear{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.iteam-name{
+    background-color: yellowgreen;
+    font-weight: bolder;
+}
+
+.row{
+    display: flex;
+
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 8px red;
+}
+/* card end */
+
+
+/* contact start */
+#Contact{
+    margin-top: 50px ;
+}
+
+.address{
+    text-align: center;
+}
+/* contact ends */
+/* footer-area start */
+.footer-area{
+    height: 100px;
+    background-color: #888888;
+    text-align: center;
+    padding-top: 80px;
+}
+/* footer-area end */
+
+/* divided column */
+            .col-lr-1{
+                width: 8.33%;
+            }
+            
+            .col-lr-2{
+                width: 16.66%;
+            }
+            
+            .col-lr-3{
+                width: 25%;
+            }
+            
+            .col-lr-4{
+                width: 33%;
+            }
+            
+            .col-lr-5{
+                width: 41%;
+            }
+            
+            .col-lr-6{
+                width: 50%;
+            }
+            
+            .col-lr-7{
+                width: 58.33%;
+            }
+            
+            .col-lr-8{
+                width: 66.66%;
+            }
+            
+            .col-lr-9{
+                width: 75%;
+            }
+            
+            .col-lr-10{
+                width: 83.33%;
+            }
+            
+            
+            .col-lr-11{
+                width: 91.66%;
+            }
+            .col-lr-12{
+                width: 100%;
+            }
+            
